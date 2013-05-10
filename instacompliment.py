@@ -37,7 +37,6 @@ already_messaged = log_file.readlines()
 log_file.close()
 
 # format the log file
-#print range(len(already_messaged)); sys.exit();
 for i in range(len(already_messaged)):
     if already_messaged[i].strip() == '':
         continue
